@@ -22,9 +22,9 @@
     </st:attribute>
 
   </st:documentation>
-
+  <p>Trend Chart should be here</p>
   <j:set var="chartId" value="history-chart-${h.generateId()}" />
-  <j:if test="${it.isTrendVisible()}">
+  <j:if test="${true}">
 
     <div class="test-trend-caption">
       ${title}
