@@ -52,7 +52,8 @@ public abstract class AsyncTrendJobAction<T extends BuildAction<?>> extends JobA
     @Override
     @SuppressWarnings("unused") // Called by jelly view
     public boolean isTrendVisible() {
-        return hasAtLeastTwoResults();
+        return true;
+        //return hasAtLeastTwoResults();
     }
 
     private boolean hasAtLeastTwoResults() {
