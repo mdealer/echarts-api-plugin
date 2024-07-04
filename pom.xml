@@ -12,13 +12,13 @@
   <groupId>io.jenkins.plugins</groupId>
   <packaging>hpi</packaging>
   <name>ECharts API Plugin</name>
-  <version>5.5.0-1</version>
+  <version>5.5.0-1.1-always-show-test-trend</version>
 
   <description>Provides ECharts for Jenkins plugins.</description>
   <url>https://github.com/jenkinsci/echarts-api-plugin</url>
 
   <properties>
-    <revision>5.5.0-1</revision>
+    <revision>5.5.0-1.1-always-show-test-trend</revision>
     <changelist>-SNAPSHOT</changelist>
 
     <module.name>${project.groupId}.echarts</module.name>
